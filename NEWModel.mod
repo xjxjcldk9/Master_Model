@@ -351,7 +351,7 @@ model;
     bs = bb + be;
 
     [name = 'balanced']%45
-    e * ((bsstar - rstar/pistar*bsstar(-1)) + (bestar - rstar/pistar*bestar(-1))) = yx - e*ym;
+    e * ((bsstar - rstar/pistar*bsstar(-1)) - (bestar - rstar/pistar*bestar(-1))) = yx - e*ym;
   
     log(a) = Rhoa*log(a(-1)) + eps_a;%55
     log(ai) = Rhoai*log(ai(-1)) + eps_ai;
